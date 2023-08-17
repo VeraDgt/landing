@@ -1,0 +1,21 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+/*page*/
+@import url(../blocks/page/page.css);
+@import url(../blocks/nowrap/nowrap.css);
+
+/*list*/
+@import url(../blocks/list/list.css);
+
+/*link*/
+@import url(../blocks/link/link.css);
+
+/*header*/
+@import url(../blocks/header/header.css);
+
+/*main*/
+@import url(../blocks/main/main.css);
+
+/*footer*/
+@import url(../blocks/footer/footer.css);
