@@ -1,0 +1,9 @@
+.page {
+  margin: 0 auto;
+  background-color: var(--color-white);
+  font-family: 'Inter', Arial, sans-serif;
+  color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  row-gap: 70px;
+}

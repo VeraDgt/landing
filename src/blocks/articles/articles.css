@@ -1,0 +1,23 @@
+.articles {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 766px) {
+  .articles {
+    overflow: auto;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .articles {
+    column-gap: 20px;
+  }
+}

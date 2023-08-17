@@ -1,0 +1,25 @@
+.header__img-wrapper {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  height: 522px;
+}
+
+@media screen and (min-width: 766px) {
+  .header__img-wrapper {
+    position: absolute;
+    top: 130px;
+    right: 45px;
+    width: 274px;
+    height: 502px;
+  }
+}
+
+@media screen and (min-width: 1310px) {
+  .header__img-wrapper {
+    width: 311px;
+    height: 630px;
+    top: 40px;
+    right: 10%;
+  }
+}

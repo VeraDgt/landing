@@ -1,0 +1,28 @@
+:root {
+  --color-white: rgba(255, 255, 255, 1);
+  --color-white07: rgba(255, 255, 255, 0.7);
+  --color-black: rgba(17, 17, 17, 1);
+  --color-black06: rgba(17, 17, 17, 0.6);
+  --color-black03: rgba(17, 17, 17, 0.3);
+  --color-black25: rgba(17, 17, 17, 0.25);
+  --color-dark-grey: rgba(34, 34, 34, 1);
+  --color-light-grey: rgba(248, 248, 248, 1);
+  --color-light-grey-border: rgba(228, 228, 228, 1);
+
+  --tiny: 12px;
+  --small14: 14px;
+  --small15: 15px;
+  --small16: 16px;
+  --medium: 18px;
+  --medium20: 20px;
+  --large24: 24px;
+  --large26: 26px;
+  --large32: 32px;
+  --large33: 33px;
+  --large38: 38px;
+  --extralarge: 60px;
+
+  --fw400: 400;
+  --fw600: 600;
+  --fw700: 700;
+}

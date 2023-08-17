@@ -1,0 +1,22 @@
+.pictures {
+  margin: 0;
+  padding: 70px 20px 50px;
+  display: flex;
+  overflow: hidden;
+  column-gap: 15px;
+}
+
+@media screen and (min-width: 766px) {
+  .pictures {
+    padding: 70px 20px 50px 10px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .pictures {
+    padding-top: 120px;
+    padding-bottom: 186px;
+    column-gap: 117px;
+  }
+}

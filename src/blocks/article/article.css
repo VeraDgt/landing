@@ -1,0 +1,19 @@
+.article {
+  background-color: var(--color-light-grey);
+  border-radius: 20px;
+  padding: 20px;
+  min-height: 284px;
+  min-width: 300px;
+}
+
+@media screen and (min-width: 766px) {
+  .article {
+    width: 349px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .article {
+    width: 540px;
+  }
+}

@@ -1,0 +1,22 @@
+.main {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  row-gap: 70px;
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+@media screen and (min-width: 766px) {
+  .main {
+    max-width: 1103px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .main {
+    width: 1103px;
+    row-gap: 120px;
+    margin-bottom: 60px;
+  }
+}

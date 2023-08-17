@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easy 05</title>
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="header__logo"></div>
+      <div class="header__title-wrapper">
+        <h1 class="header__title">Не умеете рисовать?
+          Не&nbsp;беда!</h1>
+        <p class="header__text">С помощью нашего приложения вы можете чиркануть каляку и получить шедевр.</p>
+      </div>
+      <div class="header__img-wrapper">
+        <div class="header__img-scaler">
+          <img class="header__img" src="<%=require('./images/phone_h_320.png')%>"
+            alt="Изображение смартфона с рисунком">
+        </div>
+      </div>
+      <button type="button" class="header__btn button button_white">Подробнее</button>
+    </header>
+    <main class="main">
+      <article>
+        <ul class="articles">
+          <li class="list article">
+            <div class="article__title-wrapper">
+              <p class="article__text">AI</p>
+              <h2 class="article__title">Умный интелект приложения</h2>
+            </div>
+            <p class="article__text">С помощью AI приложение анализирует картины мастеров и современных практиков
+              рисования, и достраивает картину за вас.</p>
+          </li>
+          <li class="list article">
+            <p class="article__text">Ч/Б и Цвет</p>
+            <h2 class="article__title">Рисуйте в любом стиле</h2>
+            <p class="article__text">Будь то карандашная каляка-маляка или цветное произведение, приложение поможет в
+              любой ситуации.</p>
+          </li>
+        </ul>
+        <div class="switcher">
+          <div class="switcher__element switcher__element_active"></div>
+          <div class="switcher__element"></div>
+        </div>
+      </article>
+      <section class="section">
+        <h2 class="section__title">Чик-чирик и ваша каляка превращается в изумительное произведение искусства.</h2>
+        <ul class="pictures">
+          <li class="list picture"><img class="picture__img" src="<%=require('./images/phone1.png')%>"
+              alt="Рисунок в телефоне"></li>
+          <li class="list picture"><img class="picture__img" src="<%=require('./images/phone2.png')%>"
+              alt="Рисунок в телефоне"></li>
+          <li class="list picture"><img class="picture__img" src="<%=require('./images/phone3.png')%>"
+              alt="Рисунок в телефоне"></li>
+        </ul>
+        <div class="switcher pictures__switcher">
+          <div class="switcher__element switcher__element_active"></div>
+          <div class="switcher__element"></div>
+        </div>
+      </section>
+      <article>
+        <ul class="articles">
+          <li class="list article">
+            <div class="article__title-wrapper">
+              <p class="article__text">Быстро</p>
+              <h2 class="article__title">Проблем с рисованием&nbsp;—&nbsp;нет</h2>
+            </div>
+            <p class="article__text">Рисуйте в приложении доступными кистями: карандаш, маркер, линер, масляная кисть и
+              многие другие...</p>
+          </li>
+          <li class="list article">
+            <p class="article__text">Ч/Б и Цвет</p>
+            <h2 class="article__title">Нарисовали, преобразовали, сохранили</h2>
+            <p class="article__text">Раз, два, три, больше нечего тут рассказать.</p>
+          </li>
+        </ul>
+        <div class="switcher">
+          <div class="switcher__element switcher__element_active"></div>
+          <div class="switcher__element"></div>
+        </div>
+      </article>
+      <section class="section">
+        <h2 class="section__title">Качайте приложение
+          и улучшайте свои художества, а&nbsp;потом хвастайтесь ими!</h2>
+      </section>
+      <form class="form" action="#" method="post" target="_blank">
+        <h2 class="form__title">Хотите нам что-то посоветовать?</h2>
+        <p>Оставьте заявку и мы свяжемся с вами.</p>
+        <fieldset class="form__fieldset">
+          <legend class="form__text"></legend>
+          <input class="form__input" name="name" type="text" placeholder="Ваше Имя" id="name" required>
+          <input class="form__input" name="email" type="text" placeholder="Контактный Email" id="email" required>
+          <textarea class="form__input form__input-textarea" name="message" placeholder="Сообщение"
+            id="message"></textarea>
+        </fieldset>
+        <div class="form__button"><button class="button form__btn">Оставить заявку</button></div>
+      </form>
+    </main>
+    <footer class="footer">
+      <div class="footer__title-wrapper">
+        <h2 class="footer__title">Хотите скачать приложение?</h2>
+        <p class="footer__text">Качайте в ЭпСтор и ГуглПлэй.</p>
+      </div>
+      <div class="footer__img-wrapper">
+        <div class="footer__img-scaler"><img class="footer__img" src="<%=require('./images/phone_f.png')%>"
+            alt="Изображение смартфона с рисунком">
+        </div>
+      </div>
+      <button class="button button_white footer__btn button_disabled" type="button">Уже скоро!</button>
+    </footer>
+  </div>
+</body>
+
+</html>

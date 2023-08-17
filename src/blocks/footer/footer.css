@@ -1,0 +1,29 @@
+.footer {
+  box-sizing: border-box;
+  background-color: var(--color-dark-grey);
+  border-radius: 20px;
+  color: var(--color-white);
+  padding: 20px;
+  min-height: 266px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 10px 10px;
+  position: relative;
+}
+
+@media screen and (min-width: 766px) {
+  .footer {
+    min-height: 400px;
+    padding: 50px 398px 50px 50px;
+  }
+}
+
+@media screen and (min-width: 1310px) {
+  .footer {
+    min-height: 470px;
+    padding-bottom: 60px;
+    padding-left: 160px;
+    padding-top: 60px;
+  }
+}

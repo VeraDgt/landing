@@ -1,0 +1,7 @@
+.switcher__element {
+  background-image: url(../../../images/switcher.svg);
+  width: 4px;
+  height: 4px;
+  margin-right: 4px;
+  opacity: 0.3;
+}

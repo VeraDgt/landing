@@ -1,0 +1,30 @@
+.header {
+  box-sizing: border-box;
+  background-color: var(--color-dark-grey);
+  color: var(--color-white);
+  padding: 20px;
+  min-height: 898px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  margin: 10px 10px 0;
+  position: relative;
+}
+
+@media screen and (min-width: 766px) {
+  .header {
+    min-height: 602px;
+    padding: 30px 338px 50px 50px;
+    display: grid;
+    grid-template-rows: 90px 1fr 48px;
+  }
+}
+
+@media screen and (min-width: 1310px) {
+  .header {
+    min-height: 640px;
+    padding-bottom: 145px;
+    grid-template-rows: 100px 1fr 54px;
+  }
+}

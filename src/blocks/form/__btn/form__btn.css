@@ -1,0 +1,11 @@
+@media screen and (min-width: 766px) {
+  .form__btn {
+    max-width: 240px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .form__btn {
+    max-width: 194px;
+  }
+}

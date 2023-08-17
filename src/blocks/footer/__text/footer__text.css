@@ -1,0 +1,22 @@
+.footer__text {
+  color: var(--color-white07);
+  margin: 0;
+  font-size: var(--tiny);
+  font-weight: var(--fw400);
+  line-height: normal;
+  justify-self: flex-start;
+}
+
+@media screen and (min-width: 766px) {
+  .footer__text {
+    font-size: var(--medium);
+    line-height: var(--medium26);
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .footer__text {
+    font-size: var(--medium);
+    line-height: var(--large26);
+  }
+}

@@ -1,0 +1,12 @@
+@media screen and (min-width: 766px) {
+  .footer__btn {
+    max-width: 240px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .footer__btn {
+    padding: 15px 190px;
+    min-width: 470px;
+  }
+}

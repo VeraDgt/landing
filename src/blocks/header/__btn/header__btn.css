@@ -1,0 +1,12 @@
+@media screen and (min-width: 766px) {
+  .header__btn {
+    max-width: 240px;
+  }
+}
+
+/* @media screen and (min-width: 1023px) {
+  .header__btn {
+    padding: 15px 190px;
+    width: 240px;
+  }
+} */

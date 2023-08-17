@@ -1,0 +1,55 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+@import url(common.css);
+@import url(variables.css);
+@import url(../blocks/list/list.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/main/main.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__title-wrapper/header__title-wrapper.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__text/header__text.css);
+@import url(../blocks/header/__img-wrapper/header__img-wrapper.css);
+@import url(../blocks/header/__img-scaler/header__img-scaler.css);
+@import url(../blocks/header/__img/header__img.css);
+@import url(../blocks/header/__btn/header__btn.css);
+
+@import url(../blocks/articles/articles.css);
+@import url(../blocks/article/article.css);
+@import url(../blocks/article/__title/article__title.css);
+@import url(../blocks/article/__text/article__text.css);
+
+@import url(../blocks/switcher/switcher.css);
+@import url(../blocks/switcher/__element/switcher__element.css);
+@import url(../blocks/switcher/__element/_active/switcher__element_active.css);
+
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__title/section__title.css);
+
+@import url(../blocks/pictures/pictures.css);
+@import url(../blocks/picture/picture.css);
+@import url(../blocks/picture/__img/picture__img.css);
+@import url(../blocks/pictures/__switcher/pictures__switcher.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__fieldset/form__fieldset.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__input-textarea/form__input-textarea.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__btn/form__btn.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__img-wrapper/footer__img-wrapper.css);
+@import url(../blocks/footer/__img-scaler/footer__img-scaler.css);
+@import url(../blocks/footer/__img/footer__img.css);
+@import url(../blocks/footer/__btn/footer__btn.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_white/button_white.css);
+@import url(../blocks/button/_disabled/button_disabled.css);
