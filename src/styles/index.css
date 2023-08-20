@@ -8,6 +8,7 @@
 @import url(../blocks/main/main.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__content/header__content.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__title-wrapper/header__title-wrapper.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -23,6 +24,7 @@
 @import url(../blocks/article/__text/article__text.css);
 
 @import url(../blocks/switcher/switcher.css);
+@import url(../blocks/switcher/_place_upper/switcher_place_upper.css);
 @import url(../blocks/switcher/__element/switcher__element.css);
 @import url(../blocks/switcher/__element/_active/switcher__element_active.css);
 
@@ -32,7 +34,6 @@
 @import url(../blocks/pictures/pictures.css);
 @import url(../blocks/picture/picture.css);
 @import url(../blocks/picture/__img/picture__img.css);
-@import url(../blocks/pictures/__switcher/pictures__switcher.css);
 
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__title/form__title.css);
@@ -43,6 +44,7 @@
 @import url(../blocks/form/__btn/form__btn.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/footer/__img-wrapper/footer__img-wrapper.css);
@@ -51,5 +53,5 @@
 @import url(../blocks/footer/__btn/footer__btn.css);
 
 @import url(../blocks/button/button.css);
-@import url(../blocks/button/_white/button_white.css);
+@import url(../blocks/button/_clr_white/button_clr_white.css);
 @import url(../blocks/button/_disabled/button_disabled.css);

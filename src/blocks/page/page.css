@@ -7,3 +7,9 @@
   flex-direction: column;
   row-gap: 70px;
 }
+
+@media screen and (min-width: 1023px) {
+  .page {
+    row-gap: 60px;
+  }
+}

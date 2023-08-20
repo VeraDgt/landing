@@ -8,5 +8,6 @@
 @media screen and (min-width: 1023px) {
   .form__title {
     font-size: var(--large32);
+    max-width: 500px;
   }
 }

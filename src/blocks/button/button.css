@@ -17,6 +17,7 @@
 @media screen and (min-width: 766px) {
   .button {
     font-size: var(--small14);
+    height: 48px;
   }
 }
 

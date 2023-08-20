@@ -16,15 +16,21 @@
   .header {
     min-height: 602px;
     padding: 30px 338px 50px 50px;
+    border-radius: 20px;
     display: grid;
-    grid-template-rows: 90px 1fr 48px;
   }
 }
 
-@media screen and (min-width: 1310px) {
+@media screen and (min-width: 1023px) {
   .header {
     min-height: 640px;
-    padding-bottom: 145px;
-    grid-template-rows: 100px 1fr 54px;
+    display: block;
+    padding: 30px 613px 130px 157px;
+  }
+}
+
+@media screen and (min-width: 1552px) {
+  .header {
+    padding: 30px 0 130px;
   }
 }

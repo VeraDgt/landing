@@ -1,0 +1,34 @@
+.header__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+@media screen and (min-width: 766px) {
+  .header__content {
+    display: grid;
+    grid-template-rows: 40px 1fr 112px;
+  }
+}
+
+@media screen and (min-width: 1310px) {
+  .header__content {
+    margin: 0 auto;
+    max-width: 1103px;
+    min-height: 485px;
+    row-gap: 54px;
+  }
+}
+
+@media screen and (min-width: 1552px) {
+  .header__content {
+    max-height: 485px;
+    grid-template-rows: 40px 1fr 54px 112px;
+    grid-template-areas: 
+    "logo phone"
+    "text phone"
+    "button phone"
+    "spare phone"
+  }
+}

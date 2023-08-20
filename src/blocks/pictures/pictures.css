@@ -8,15 +8,15 @@
 
 @media screen and (min-width: 766px) {
   .pictures {
-    padding: 70px 20px 50px 10px;
+    padding: 70px 20px 0 10px;
     justify-content: center;
+    column-gap: 5px;
   }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1323px) {
   .pictures {
-    padding-top: 120px;
-    padding-bottom: 186px;
-    column-gap: 117px;
+    padding: 120px 110px 185px 0;
+    column-gap: 107px;
   }
 }

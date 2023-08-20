@@ -1,8 +1,8 @@
-.button_white {
+.button_clr_white {
   color: var(--color-dark-grey);
   background-color: var(--color-white);
 }
 
-.button_white:hover {
+.button_clr_white:hover {
   opacity: 0.93;
 }

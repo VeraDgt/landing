@@ -4,8 +4,14 @@
   }
 }
 
+@media screen and (min-width: 766px) {
+  .form__btn {
+    min-width: 470px;
+  }
+}
+
 @media screen and (min-width: 1023px) {
   .form__btn {
-    max-width: 194px;
+    min-width: 194px;
   }
 }

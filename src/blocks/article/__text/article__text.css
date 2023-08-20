@@ -7,7 +7,7 @@
 
 @media screen and (min-width: 1023px) {
   .article__text {
-    font-size: var(--medium);
+    font-size: var(--small16);
     line-height: var(--medium20);
   }
 }

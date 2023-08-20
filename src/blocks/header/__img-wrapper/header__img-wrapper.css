@@ -8,18 +8,25 @@
 @media screen and (min-width: 766px) {
   .header__img-wrapper {
     position: absolute;
-    top: 130px;
-    right: 45px;
+    top: 121px;
+    right: 21px;
     width: 274px;
     height: 502px;
   }
 }
 
-@media screen and (min-width: 1310px) {
+@media screen and (min-width: 1023px) {
   .header__img-wrapper {
     width: 311px;
     height: 630px;
     top: 40px;
-    right: 10%;
+    right: 15%;
+  }
+}
+
+@media screen and (min-width: 1552px) {
+  .header__img-wrapper {
+    position: relative;
+    grid-area: phone;
   }
 }

@@ -10,13 +10,29 @@
 @media screen and (min-width: 766px) {
   .header__title {
     font-size: var(--large33);
+    line-height: var(--large38);
     margin-bottom: var(--medium20);
   }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 798px) {
+  .header__title {
+    font-size: 3.6vw;
+    line-height: 4.2vw;
+    margin-bottom: var(--medium20);
+  }
+}
+
+@media screen and (min-width: 1420px) {
   .header__title {
     font-size: var(--extralarge);
+    line-height: normal;
     margin-bottom: var(--large26);
+  }
+}
+
+@media screen and (min-width: 1552px) {
+  .header__title {
+    grid-area: text;
   }
 }

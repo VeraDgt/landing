@@ -10,7 +10,7 @@
 @media screen and (min-width: 766px) {
   .form__fieldset {
     width: 470px;
-    margin: 100px auto 30px;
+    margin: 70px auto 20px;
   }
 }
 
@@ -20,5 +20,6 @@
     flex-direction: row;
     column-gap: 40px;
     flex-wrap: wrap;
+    margin: 72px auto 0;
   }
 }

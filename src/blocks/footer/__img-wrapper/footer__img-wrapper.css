@@ -6,7 +6,7 @@
   .footer__img-wrapper {
     display: block;
     position: absolute;
-    right: 79px;
+    right: 70px;
     top: -30px;
     width: 250px;
     height: 430px;
@@ -18,5 +18,11 @@
     width: 311px;
     height: 500px;
     right: 15%;
+  }
+}
+
+@media screen and (min-width: 1442px) {
+  .footer__img-wrapper {
+    left: 58%;
   }
 }

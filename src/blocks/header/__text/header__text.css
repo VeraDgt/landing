@@ -20,3 +20,9 @@
     max-width: 450px;
   }
 }
+
+@media screen and (min-width: 1552px) {
+  .header__text {
+    grid-area: text;
+  }
+}

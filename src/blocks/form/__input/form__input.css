@@ -28,6 +28,6 @@
 @media screen and (min-width: 766px) {
   .form__input {
     font-size: var(--small16);
-    width: 470px;
+    min-width: 47.8%;
   }
 }

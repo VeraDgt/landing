@@ -1,6 +1,6 @@
 .picture {
   width: 260px;
-  height: 522px;
+  height: 511px;
   flex-shrink: 0;
   margin: 0;
   position: relative;
@@ -9,14 +9,14 @@
 
 @media screen and (min-width: 766px) {
   .picture {
-    width: 226px;
+    width: 227px;
     height: 461px;
   }
 }
 
 @media screen and (min-width: 1023px) {
   .picture {
-    width: 258px;
+    width: 257px;
     height: 520px;
   }
 }
