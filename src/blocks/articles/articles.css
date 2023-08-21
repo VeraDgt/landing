@@ -1,4 +1,5 @@
 .articles {
+  transition: 0.5s ease-in-out;
   margin: 0;
   padding: 0;
   display: flex;
