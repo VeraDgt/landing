@@ -20,3 +20,9 @@
     line-height: var(--large26);
   }
 }
+
+@media screen and (min-width: 1442px) {
+  .footer__text {
+    grid-area: text;
+  }
+}

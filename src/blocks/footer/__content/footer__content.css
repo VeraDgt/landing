@@ -18,12 +18,21 @@
   .footer__content {
     min-height: 410px;
     padding-bottom: 60px;
+    max-width: 1103px;
   }
 }
 
 @media screen and (min-width: 1442px) {
   .footer__content {
-    max-width: 1103px;
     margin: 0 auto;
+    display: grid;
+    padding-bottom: 0;
+    grid-template-rows: 122px 1fr 54px 60px;
+    grid-template-areas: 
+    "text phone"
+    "text phone"
+    "button phone"
+    "spare phone";
+    position: relative;
   }
 }

@@ -21,8 +21,11 @@
   }
 }
 
-@media screen and (min-width: 1442px) {
+@media screen and (min-width: 1552px) {
   .footer__img-wrapper {
-    left: 58%;
+    position: relative;
+    grid-area: phone;
+    position: absolute;
+    top: -90px;
   }
 }

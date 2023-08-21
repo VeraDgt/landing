@@ -21,3 +21,9 @@
     width: 460px;
   }
 }
+
+@media screen and (min-width: 1442px) {
+  .footer__title {
+    grid-area: text;
+  }
+}

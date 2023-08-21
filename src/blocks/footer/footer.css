@@ -19,3 +19,10 @@
     padding-top: 60px;
   }
 }
+
+@media screen and (min-width: 1442px) {
+  .footer {
+    padding: 60px 0 0;
+    max-height: 470px;
+  }
+}

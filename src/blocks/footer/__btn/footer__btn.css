@@ -10,3 +10,9 @@
     min-width: 470px;
   }
 }
+
+@media screen and (min-width: 1442px) {
+  .footer__btn {
+    grid-area: button;
+  }
+}
