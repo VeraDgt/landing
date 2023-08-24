@@ -8,7 +8,7 @@
 @media screen and (min-width: 766px) {
   .header__content {
     display: grid;
-    grid-template-rows: 40px 1fr 112px;
+    grid-template-rows: 40px 1fr 48px;
   }
 }
 
