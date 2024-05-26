@@ -1,0 +1,26 @@
+.form {
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: var(--color-light-grey);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  margin: 0 10px;
+  align-items: center;
+}
+
+@media screen and (min-width: 766px) {
+  .form {
+    padding: 30px;
+    row-gap: 28px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .form {
+    padding: 60px;
+    margin: 0;
+  }
+}

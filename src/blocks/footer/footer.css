@@ -1,0 +1,28 @@
+.footer {
+  background-color: var(--color-dark-grey);
+  border-radius: 20px;
+  color: var(--color-white);
+  padding: 20px;
+  margin: 0 10px 10px;
+  position: relative;
+}
+
+@media screen and (min-width: 766px) {
+  .footer {
+    padding: 50px 398px 0 50px;
+  }
+}
+
+@media screen and (min-width: 1310px) {
+  .footer {
+    padding-left: 160px;
+    padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1442px) {
+  .footer {
+    padding: 60px 0 0;
+    max-height: 470px;
+  }
+}

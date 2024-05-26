@@ -1,0 +1,17 @@
+@media screen and (min-width: 766px) {
+  .header__btn {
+    max-width: 240px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .header__btn {
+    margin-top: 54px;
+  }
+}
+
+@media screen and (min-width: 1552px) {
+  .header__btn {
+    grid-area: button;
+  }
+}

@@ -1,0 +1,13 @@
+.form__text {
+  color: var(--color-black06);
+  text-align: center;
+  font-size: var(--small15);
+  font-weight: var(--fw400);
+  line-height: var(--medium20);
+}
+
+@media screen and (min-width: 1023px) {
+  .form__text {
+    font-size: var(--small16);
+  }
+}

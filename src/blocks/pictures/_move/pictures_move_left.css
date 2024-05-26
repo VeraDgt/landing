@@ -1,0 +1,5 @@
+.pictures_move_left {
+  transition: 0.5s ease-in-out;
+  margin-left: -288px;
+  margin-right: 10px;
+}

@@ -1,0 +1,38 @@
+.footer__content {
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 227px;
+}
+
+@media screen and (min-width: 766px) {
+  .footer__content {
+    min-height: 350px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1310px) {
+  .footer__content {
+    min-height: 410px;
+    padding-bottom: 60px;
+    max-width: 1103px;
+  }
+}
+
+@media screen and (min-width: 1442px) {
+  .footer__content {
+    margin: 0 auto;
+    display: grid;
+    padding-bottom: 0;
+    grid-template-rows: 122px 1fr 54px 60px;
+    grid-template-areas: 
+    "text phone"
+    "text phone"
+    "button phone"
+    "spare phone";
+    position: relative;
+  }
+}

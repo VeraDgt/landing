@@ -1,0 +1,24 @@
+.article {
+  box-sizing: border-box;
+  background-color: var(--color-light-grey);
+  border-radius: 20px;
+  padding: 20px;
+  min-height: 284px;
+  min-width: 300px;
+}
+
+@media screen and (min-width: 766px) {
+  .article {
+    max-width: 349px;
+    padding: 30px;
+    min-height: 284px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .article {
+    min-width: 48.9%;
+    padding: 40px;
+    min-height: 308px;
+  }
+}

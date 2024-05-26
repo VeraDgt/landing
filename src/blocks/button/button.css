@@ -1,0 +1,29 @@
+.button {
+  border-radius: 8px;
+  height: 44px;
+  width: 100%;
+  font-size: var(--tiny);
+  font-weight: var(--fw600);
+  line-height: var(--large24);
+  background-color: var(--color-dark-grey);
+  color: var(--color-white);
+  text-align: center;
+}
+
+.button:hover {
+  opacity: 0.85;
+}
+
+@media screen and (min-width: 766px) {
+  .button {
+    font-size: var(--small14);
+    height: 48px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .button {
+    font-size: var(--small16);
+    height: 54px;
+  }
+}

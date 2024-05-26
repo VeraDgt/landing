@@ -1,0 +1,22 @@
+.section__title {
+  font-size: var(--large26);
+  font-weight: var(--fw600);
+  line-height: normal;
+  margin: 0 30px;
+}
+
+@media screen and (min-width: 766px) {
+  .section__title {
+    font-size: var(--large33);
+    line-height: var(--large38);
+    margin: 0 60px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .section__title {
+    font-size: var(--extralarge);
+    line-height: var(--extralarge68);
+    margin: 0;
+  }
+}

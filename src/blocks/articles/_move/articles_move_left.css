@@ -1,0 +1,5 @@
+.articles_move_left {
+  transition: 0.5s ease-in-out;
+  margin-left: -320px;
+  margin-right: 10px;
+}

@@ -1,0 +1,40 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+@import url(../../styles/common.css);
+@import url(../../styles/variables.css);
+@import url(../page/page.css);
+@import url(../article/__subtitle/article__subtitle.css);
+@import url(../footer/footer.css);
+@import url(../footer/__title/footer__title.css);
+@import url(../footer/__text/footer__text.css);
+@import url(../button/button.css);
+@import url(../button/_white/button_white.css);
+@import url(../button/_disabled/button_disabled.css);
+@import url(../form/form.css);
+@import url(../form/__input/form__input.css);
+
+.ui-kit {
+  margin-left: 70px;
+}
+
+.ui-kit__element {
+  font-size: var(--small14);
+  font-weight: var(--fw400);
+  line-height: var(--medium);
+  margin: 50px 0 30px;
+}
+
+.ui-kit__el-footer {
+  display: flex;
+  column-gap: 70px;
+}
+
+.footer {
+  flex-basis: 300px;
+}
+
+.ui-kit-button {
+  width: 300px;
+  min-height: auto;
+}

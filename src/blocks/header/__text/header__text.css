@@ -1,0 +1,28 @@
+.header__text {
+  color: var(--color-white07);
+  font-size: var(--tiny);
+  font-weight: var(--fw400);
+  line-height: normal;
+}
+
+
+@media screen and (min-width: 766px) {
+  .header__text {
+    font-size: var(--small15);
+    line-height: var(--medium20);
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .header__text {
+    font-size: var(--medium);
+    line-height: var(--large26);
+    max-width: 450px;
+  }
+}
+
+@media screen and (min-width: 1552px) {
+  .header__text {
+    grid-area: text;
+  }
+}

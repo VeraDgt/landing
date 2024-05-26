@@ -1,0 +1,12 @@
+.header__logo {
+  background-image: url(../../../images/logo.svg);
+  height: 40px;
+  width: 40px;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 1552px) {
+  .header__logo {
+    grid-area: logo;
+  }
+}

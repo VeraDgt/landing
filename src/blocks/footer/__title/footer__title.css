@@ -1,0 +1,29 @@
+.footer__title {
+  color: var(--color-white);
+  margin: 0;
+  font-size: var(--large24);
+  font-weight: var(--fw700);
+  line-height: normal;
+  margin-bottom: var(--small14);
+}
+
+@media screen and (min-width: 766px) {
+  .footer__title {
+    font-size: var(--large33);
+    margin-bottom: var(--medium20);
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .footer__title {
+    font-size: var(--large32);
+    line-height: var(--large38);
+    width: 460px;
+  }
+}
+
+@media screen and (min-width: 1442px) {
+  .footer__title {
+    grid-area: text;
+  }
+}
